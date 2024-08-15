@@ -37,11 +37,11 @@ const CustomLabel = ({ x, y, value }) => {
             // textAnchor="middle"
             fontWeight="500"
         >
-            {`${value}%`} {/* Corrected template literal syntax */}
+            {`${value}%`} {/* Corrected template literal syntax */}  
         </text>
     );
 };
-
+// abc 
 const TopGainLoseSector = () => {
     return (
         <div style={{ width: '100%', height: 300 }}>
